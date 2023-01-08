@@ -1,10 +1,16 @@
+//start array
+
 const sortArray = (n) => {
   const arr = []
   for (let i = 1; i<=n; i++) arr.push(i)
   return arr
 }
-// Binary Search
 
+
+
+// algorithms
+
+// Binary Search
 function binarySearch(arr, val) {
   let start = 0;
   let end = arr.length - 1;
